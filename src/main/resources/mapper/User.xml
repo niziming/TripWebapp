@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="UserMapper">
+    <!--mapper可以配置很多SQL语句，其中select标签包含了一段SQL查询语句，parameterType指定了输入参数的类型，而resultType指定了输出结果映射java对象类型-->
+    <!--插入用户-->
+    <insert id="insertUser" parameterType="model.User">
+   insert into tripwebdb.trip_user (id,username,password,gender,email,birthday) values (#{id},#{username},#{password},#{gender},#{email},#{birthday})
+    </insert>
+
+    <!--查询用户INFO通过ID-->
+    <select id="queryById" parameterType="int" resultType="User">
+        select * from tripwebdb.trip_user where id=#{id}
+    </select>
+
+    <!--查询全部用户-->
+    <select id="queryById" parameterType="int" resultType="User">
+        select * from tripwebdb.trip_user
+    </select>
+
+    <!--查询用户INFO通过用户名-->
+    <select id="queryByUserName" parameterType="String" resultType="User">
+        select * from tripwebdb.trip_user where username = #{username}
+    </select>
+
+    <!--更新用户信息 通过主键ID-->
+    <update id="updateUser">
+        update tripwebdb.trip_user set username=#{username}, password=#{password}, gender=#{gender}, email=#{email}, birthday=#{birthday} where id=#{id}
+    </update>
+
+</mapper>

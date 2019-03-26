@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="libraryTable">
+    <library name="apache-tomcat-7.0">
+      <CLASSES>
+        <root url="file://D:/Java/apache-tomcat-7.0.91" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://D:/Java/apache-tomcat-7.0.91/webapps/docs/appdev/sample/src" />
+        <root url="file://D:/Java/apache-tomcat-7.0.91/webapps/examples/WEB-INF/classes" />
+        <root url="file://D:/Java/apache-tomcat-7.0.91/webapps/examples/WEB-INF/jsp/applet" />
+        <root url="file://D:/Java/apache-tomcat-7.0.91/webapps/examples/jsp/plugin/applet" />
+        <root url="file://D:/Java/apache-tomcat-7.0.91/work/Catalina/localhost/_" />
+        <root url="file://D:/Java/apache-tomcat-7.0.91/work/Catalina/localhost/host-manager" />
+        <root url="file://D:/Java/apache-tomcat-7.0.91/work/Catalina/localhost/manager" />
+      </SOURCES>
+    </library>
+    <library name="commons-fileupload-1.3.2">
+      <CLASSES>
+        <root url="jar://D:/Java/commons-fileupload-1.3.2.jar!/" />
+        <root url="jar://D:/Java/commons-io-2.4.jar!/" />
+        <root url="jar://D:/Java/hamcrest-core-1.3.jar!/" />
+        <root url="jar://D:/Java/junit-4.13-beta-1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+  </component>
+</project>
